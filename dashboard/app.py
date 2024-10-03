@@ -17,7 +17,7 @@ def create_season_order_avg_df(day_df):
     return season_group
 
 # Load cleaned data
-day_data = pd.read_csv("./cleaned_data.csv")
+day_data = pd.read_csv("./data/cleaned_data.csv")
 
 # Konversi kolom tanggal
 day_data['date'] = pd.to_datetime(day_data['date'])
